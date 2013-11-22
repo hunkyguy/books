@@ -6,7 +6,7 @@
 
 from scrapy.item import Item, Field
 
-class BooksDoubanScrapyItem(Item):
+class BooksScrapyItem(Item):
     # define the fields for your item here like:
     url = Field()
     name = Field()
